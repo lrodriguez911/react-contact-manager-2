@@ -7,6 +7,7 @@ function AddPersonForm(props) {
     
   function handleChange(e) {
     setPerson(e.target.value);
+    setContacts(contacts.push)
   }
     
   function handleSubmit(e) {
